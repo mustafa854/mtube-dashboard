@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { useChannel } from "../context/channel";
 import { auth } from "../config/firebase";
+import { userLogout } from "../utils/firebase.auth/userLogout";
 
 function SideNav(currentChannel, userDetails) {
   const { channel } = useChannel();
