@@ -21,17 +21,13 @@ function Header({ userDetails }) {
       <div className="container mx-auto p-4 flex flex-row justify-between	items-center shadow-md z-50		">
         <div className="flex flex-row gap-x-4">
           <div>
-            <img
-              className="header-icon"
-              src="/public/image/svg/hamburger.svg"
-              alt=""
-            />
+            <img className="header-icon" src="image/svg/hamburger.svg" alt="" />
           </div>
           <div>
             {/* <Link to={"/"}> */}
             <img
               className="header-icon--logo"
-              src="/public/image/svg/yt_studio_logo.svg"
+              src="image/svg/yt_studio_logo.svg"
               alt=""
             />
             {/* </Link> */}
