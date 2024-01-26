@@ -54,8 +54,8 @@ function UpdateVideo() {
         <div className="p-7 border-b">
           <h1 className="text-2xl font-semibold text-gray-800">Upload Video</h1>
         </div>
-        <div className="w-1/2 mx-auto">
-          <form className="max-w-sm p-7">
+        <div className="sm:w-1/2 mx-auto mt-7 sm:mt-0 sm:px-0 px-4">
+          <form className="max-w-sm sm:p-7 mx-auto">
             <div className="mb-5">
               <label
                 htmlFor="title"

@@ -11,16 +11,13 @@ function Dashboard({ viewCount, commentCount }) {
 
   if (viewCount) {
     return (
-      <div
-        className="container w-full h-full p-7"
-        style={{ background: "#f9f9f9" }}
-      >
+      <div className="h-full p-7" style={{ background: "#f9f9f9" }}>
         <h1 className="text-2xl font-semibold text-gray-800">
           Channel Dashboard
         </h1>
-        <div className="container flex flex-row gap-5 mt-5">
+        <div className=" grid lg:grid-cols-3 md:grid-cols-2 gap-5 mt-5">
           <div
-            className="w-1/3 bg-white border rounded-md p-3"
+            className=" bg-white border rounded-md p-3"
             style={{ height: "500px" }}
           >
             <div className="border border-dashed h-full w-full flex flex-col gap-2 justify-center content-center">
@@ -39,7 +36,7 @@ function Dashboard({ viewCount, commentCount }) {
               </button>
             </div>
           </div>
-          <div className="w-1/3 p-6 bg-white  border rounded-md h-fit">
+          <div className=" p-6 bg-white  border rounded-md h-fit">
             <div className="pb-10 border-b">
               <h2 className="text-lg font-semibold text-gray-800">
                 Channel Analytics

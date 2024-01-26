@@ -87,15 +87,15 @@ function App() {
 
   return (
     <>
-      <div className="container flex flex-col h-screen max-h-screen overflow-auto">
+      <div className="flex flex-col h-screen max-h-screen overflow-auto w-full mx-auto">
         <Router>
           <Header userDetails={userDetails} />
           {loggedIn ? (
-            <div className="container flex flex-row grow">
-              <div className="container w-1/5 border-r">
+            <div className=" flex md:flex-row flex-col grow">
+              <div className="md:container md:w-1/5 md:border-r">
                 <SideNav channel={channel} userDetails={userDetails} />
               </div>
-              <div className="container">
+              <div className="md:w-4/5 w-full">
                 <Routes>
                   <Route
                     path="/"

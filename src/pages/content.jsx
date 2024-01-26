@@ -9,7 +9,7 @@ function Content() {
   const { videos } = useVideo();
 
   return (
-    <div className="container w-full">
+    <div className=" w-full">
       <div className="p-7">
         <h1 className="text-2xl font-semibold text-gray-800">
           Channel Content
@@ -21,16 +21,16 @@ function Content() {
             <p className="text-sm font-semibold ">Video</p>
           </div>
 
-          <div className="w-1/12">
+          <div className="md:w-1/12  md:block hidden">
             <p className="text-sm font-semibold ">Publish Date</p>
           </div>
-          <div className="w-1/12">
+          <div className="md:w-1/12  md:block hidden">
             <p className="text-sm font-semibold ">Views</p>
           </div>
-          <div className="w-1/12">
+          <div className="md:w-1/12  md:block hidden">
             <p className="text-sm font-semibold ">Comments</p>
           </div>
-          <div className="w-1/12">
+          <div className="md:w-1/12  md:block hidden">
             <p className="text-sm font-semibold ">Likes vs Dislikes</p>
           </div>
         </div>

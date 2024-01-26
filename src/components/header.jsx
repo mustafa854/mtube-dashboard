@@ -18,8 +18,8 @@ function Header({ userDetails }) {
 
   return (
     <>
-      <div className="container mx-auto p-4 flex flex-row justify-between	items-center shadow-md z-50		">
-        <div className="flex flex-row gap-x-4">
+      <div className="w-full mx-auto p-4 flex flex-row justify-between	items-center shadow-md z-50		">
+        <div className="flex flex-row gap-x-4 mr-auto">
           <div>
             <img className="header-icon" src="image/svg/hamburger.svg" alt="" />
           </div>
